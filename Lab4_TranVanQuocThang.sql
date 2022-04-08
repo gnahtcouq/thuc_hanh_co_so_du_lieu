@@ -46,3 +46,9 @@ WHERE phutrach='LT'
 SELECT *
 FROM giangvien gv left join  thannhan t on gv.magv=t.magv
 WHERE t.magv is null
+--4/
+SELECT hosv + tensv hoten, tenmh
+FROM sinhvien s join ketqua k on s.masv=k.masv
+	join monhoc m on m.mamh=k.mamh
+WHERE diemth = 0 or diemlt = 0
+--5/
