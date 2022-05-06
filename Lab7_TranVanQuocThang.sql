@@ -2,6 +2,47 @@
 --MSSV: DH52007101 
 --Lớp: D20_TH11
 
+--Bài 1
+create database QuanLyThuVien
+
+create table DocGia(
+	MaDocGia nchar(5),
+	HoTen nvarchar(30),
+	NgaySinh date,
+	primary key(MaDocGia)
+)
+
+create table LoaiSach(
+	MaLoaiSach nchar(5),
+	TenLoaiSach nvarchar(30),
+	primary key(MaLoaiSach)
+)
+
+ create table DauSach(
+	MaDauSach nchar(5),
+	TuaSach nvarchar(30),
+	TacGia nvarchar(30),
+	NgayXuatBan date,
+	SoLuong int,
+	GiaBan real,
+	MaLoaiSach nchar(5)
+	primary key(MaDauSach, MaLoaiSach)
+)
+
+create table CuonSach(
+	MaCuonSach nchar(5),
+	MaDauSach nchar(5),
+	TinhTrang nvarchar(15),
+	primary key(MaCuonSach, MaDauSach)
+)
+
+create table DangKy(
+	MaDauSach nchar(5),
+	MaDocGia nchar(5),
+	NgayDangKy date,
+	primary key(MaDauSach, MaDocGia)
+)
+
 --------------------------------------------------
 --Bài 2
 --1/ Thêm mới thông tin của 1 khoa:
