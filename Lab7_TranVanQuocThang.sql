@@ -1,7 +1,8 @@
-﻿--Họ tên: Trần Văn Quốc Thắng
+--Họ tên: Trần Văn Quốc Thắng
 --MSSV: DH52007101 
 --Lớp: D20_TH11
 
+--------------------------------------------------
 --Bài 2
 --1/ Thêm mới thông tin của 1 khoa:
 -- Makhoa: TT
@@ -75,11 +76,10 @@ delete SV_HOCBONG
 where nu = 0
 
 --10/ Xóa bảng SV_HOCBONG
-delete SV_HOCBONG
--- drop table SV_HOCBONG
+--delete SV_HOCBONG
+drop table SV_HOCBONG
 
 select * from thi
-select * from SV_HOCBONG
 select * from khoa
 select * from giangvien
 select * from thannhan
