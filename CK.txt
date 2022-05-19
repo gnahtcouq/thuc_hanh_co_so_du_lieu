@@ -1,0 +1,12 @@
+1. Ràng buộc các ràng buộc toàn vẹn sau: Số tín chỉ của một môn học thấp nhất là 1 và cao nhất là 6 (1điểm)
+2. Nhập thêm vào bảng sinh viên một dòng mới với thông tin như sau (1điểm)
+	+ Mã sinh viên: 05555
+	+ Các thông tin khác chính là các thông tin của mình
+3. Thống kê tổng số sinh viên THEO TỪNG TÊN CHUYÊN NGÀNH (1điểm)
+4. Liệt kê những tên môn học bắt buộc (1điểm)
+5. Liệt kê những môn học chưa có sinh viên đăng ký,...
+6. Viết câu truy vấn để tạo bảng "SinhVienCNTT" với các thông tin của những sinh viên thuộc chuyên ngành CNTT (Gợi ý: SV tạo bảng "SinhVienCNTT" với cấu trúc giống với bảng sinh viên trước) (1 điểm)
+7. Cập nhật lại số tín chỉ của môn "Tri tue nhan tao" là 6 (0.5 điểm)
+8. Liệt kê các môn học có số tín chỉ là nhỏ nhất (1 điểm)
+9. Liệt kê các môn học có số tín chỉ lớn hơn số tín chỉ trung bình của các môn học (1 điểm)
+10. Thống kê mỗi sinh viên có tổng số tín chỉ là bao nhiêu? Chỉ xuất những sinh viên có tổng số tín chỉ từ 5 trở lên (1.5 điểm)
